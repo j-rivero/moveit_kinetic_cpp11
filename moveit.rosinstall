@@ -12,8 +12,8 @@
     version: fcl-0.5
 - git:
     local-name: moveit_plugins
-    uri: https://github.com/ros-planning/moveit_plugins.git
-    version: kinetic-devel
+    uri: https://github.com/delftrobotics/moveit_plugins.git
+    version: enable-cxx11
 - git:
     local-name: moveit_commander
     uri: https://github.com/ros-planning/moveit_commander.git
