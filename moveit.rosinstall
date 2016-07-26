@@ -36,8 +36,8 @@
     version: master
 - git:
     local-name: moveit_setup_assistant
-    uri: https://github.com/ros-planning/moveit_setup_assistant.git
-    version: jade-devel
+    uri: https://github.com/delftrobotics/moveit_setup_assistant.git
+    version: enable-cxx11
 - git:
     local-name: srdfdom
     uri: https://github.com/ros-planning/srdfdom.git
