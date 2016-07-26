@@ -50,3 +50,11 @@
     local-name: octomap
     uri: https://github.com/OctoMap/octomap.git
     version: v1.8.0
+- git:
+    local-name: object_manipulation_msgs
+    uri: https://github.com/ros-gbp/manipulation_msgs-release.git
+    version: release/kinetic/manipulation_msgs
+- git:
+    local-name: household_objects_database_msgs
+    uri: https://github.com/ros-gbp/household_objects_database_msgs-release.git
+    version: release/kinetic/household_objects_database_msgs
