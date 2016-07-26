@@ -14,6 +14,6 @@ env:
   matrix:
     - ROS_DISTRO="kinetic"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu UPSTREAM_WORKSPACE=moveit.rosinstall BEFORE_SCRIPT='./moveit_kinetic_cpp11/run_before.sh'
 before_script:
-  - git clone -q https://github.com/ros-planning/moveit_ci.git .moveit_ci
+  - git clone -q https://github.com/ros-planning/moveit_ci.git -b make_test_fail .moveit_ci
 script:
   - source .moveit_ci/travis.sh
