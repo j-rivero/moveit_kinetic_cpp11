@@ -1,23 +1,23 @@
 - git:
     local-name: geometric_shapes
-    uri: https://github.com/delftrobotics/geometric_shapes.git
-    version: fcl-0.5
+    uri: https://github.com/ros-planning/geometric_shapes.git
+    version: kinetic-devel
 - git:
     local-name: moveit_core
     uri: https://github.com/delftrobotics/moveit_core.git
     version: fcl-0.5
 - git:
     local-name: moveit_ros
-    uri: https://github.com/delftrobotics/moveit_ros.git
-    version: fcl-0.5
+    uri: https://github.com/ros-planning/moveit_ros.git
+    version: kinetic-devel
 - git:
     local-name: moveit_plugins
-    uri: https://github.com/delftrobotics/moveit_plugins.git
-    version: enable-cxx11
+    uri: https://github.com/ros-planning/moveit_plugins.git
+    version: kinetic-devel
 - git:
     local-name: moveit_commander
     uri: https://github.com/ros-planning/moveit_commander.git
-    version: jade-devel
+    version: kinetic-devel
 - git:
     local-name: moveit_planners
     uri: https://github.com/ros-planning/moveit_planners.git
@@ -36,8 +36,8 @@
     version: master
 - git:
     local-name: moveit_setup_assistant
-    uri: https://github.com/delftrobotics/moveit_setup_assistant.git
-    version: enable-cxx11
+    uri: https://github.com/ros-planning/moveit_setup_assistant.git
+    version: kinetic-devel
 - git:
     local-name: srdfdom
     uri: https://github.com/ros-planning/srdfdom.git
