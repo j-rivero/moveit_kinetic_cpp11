@@ -12,7 +12,7 @@ notifications:
       - dave@dav.ee
 env:
   matrix:
-    - ROS_DISTRO="kinetic"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu UPSTREAM_WORKSPACE=moveit.rosinstall BEFORE_SCRIPT='./moveit_kinetic_cpp11/run_before.sh' TEST_BLACKLIST='octomap fcl'
+    - ROS_DISTRO="kinetic"  ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu UPSTREAM_WORKSPACE=moveit.rosinstall BEFORE_SCRIPT='./moveit_kinetic_cpp11/run_before.sh' TEST_BLACKLIST='octomap octovis dynamic_edt_3d fcl'
 before_script:
   - git clone -q https://github.com/ros-planning/moveit_ci.git .moveit_ci
   - git -C .moveit_ci am ../0001-Allow-blacklisting-packages-for-testing.patch
