@@ -4,8 +4,8 @@
     version: kinetic-devel
 - git:
     local-name: moveit_core
-    uri: https://github.com/delftrobotics/moveit_core.git
-    version: fcl-0.5
+    uri: https://github.com/ros-planning/moveit_core.git
+    version: kinetic-devel
 - git:
     local-name: moveit_ros
     uri: https://github.com/ros-planning/moveit_ros.git
