@@ -11,7 +11,7 @@ env:
     - ROS_DISTRO="kinetic"  ROS_REPO=ros-shadow-fixed UPSTREAM_WORKSPACE=moveit.rosinstall BEFORE_SCRIPT='./moveit_kinetic_cpp11/run_before.sh' TEST_BLACKLIST='octomap octovis dynamic_edt_3d fcl'
 before_script:
   - git clone -q https://github.com/ros-planning/moveit_ci.git .moveit_ci
-  - sudo apt-get install -y wget
+  - sudo apt-get install -y wget libfcl-dev
   - wget http://build.osrfoundation.org/job/fcl-pkg_builder-master-generic/9/artifact/pkgs/libfcl0.5_0.5.0-1osrf1%7Exenial1_amd64.deb
   - sudo dpkg -i libfcl0.5_0.5.0-1osrf1~xenial1_amd64.deb
   - wget http://build.osrfoundation.org/job/fcl-pkg_builder-master-generic/9/artifact/pkgs/libfcl-dev_0.5.0-1osrf1%7Exenial1_amd64.deb
