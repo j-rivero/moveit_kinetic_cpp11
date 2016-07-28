@@ -43,6 +43,10 @@
     uri: https://github.com/ros-planning/srdfdom.git
     version: indigo-devel
 - git:
+    local-name: octomap
+    uri: https://github.com/OctoMap/octomap.git
+    version: v1.8.0
+- git:
     local-name: object_manipulation_msgs
     uri: https://github.com/ros-gbp/manipulation_msgs-release.git
     version: release/kinetic/manipulation_msgs
